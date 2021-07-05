@@ -106,6 +106,7 @@ helperInContent("content", pInContent);
 //contact
 
 const contactInfo = document.querySelector(".contact");
+contactInfo.style.width = "200px";
 const childrenOfContact = contactInfo.children;
 contactValue = Object.values(siteContent["contact"]);
 for (let i = 0; i < childrenOfContact.length; i++) {
