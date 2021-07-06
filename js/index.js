@@ -68,14 +68,14 @@ navBar.prepend(home);
 navBar.appendChild(overView);
 
 const headerImg = document.querySelector("#cta-img");
-headerImg.src = "img/header-img.png";
+headerImg.src = siteContent["cta"]["img-src"];
 
 //h1
 const h1 = document.querySelector("h1");
-h1.style.width = "150px";
-h1.style.marginRight = "100px";
 
 h1.innerText = siteContent["cta"]["h1"];
+h1.style.width = "150px";
+h1.style.marginRight = "100px";
 
 //cta button
 const btnCta = document.querySelector("button");
